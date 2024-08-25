@@ -11,7 +11,16 @@ public class InteractableObject : MonoBehaviour
 
     public void Interact()
     {
-        Debug.Log(interactionMessage);
-        // Here you can add more interaction logic, like opening a door or picking up an item.
+        // Check if the object is a ResourceCollectible
+        ResourceCollectible resourceCollectible = GetComponent<ResourceCollectible>();
+        if (resourceCollectible != null)
+        {
+            resourceCollectible.Interact();
+        }
+        else
+        {
+            Debug.Log(interactionMessage);
+            // Add more interaction logic here if needed.
+        }
     }
 }
