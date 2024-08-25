@@ -27,6 +27,14 @@ public class PlayerResources : MonoBehaviour
         UpdateResourceUI();
     }
 
+    // Add this method to deduct resources
+    public void UseResource(int amount)
+    {
+        currentResources -= amount;
+        Debug.Log("Resource used. Current resources: " + currentResources);
+        UpdateResourceUI();
+    }
+
     void UpdateResourceUI()
     {
         if (resourceText != null)

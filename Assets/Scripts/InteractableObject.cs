@@ -19,8 +19,17 @@ public class InteractableObject : MonoBehaviour
         }
         else
         {
-            Debug.Log(interactionMessage);
-            // Add more interaction logic here if needed.
+            // Check if the object is a DecisionMaking
+            DecisionMaking decisionMaking = GetComponent<DecisionMaking>();
+            if (decisionMaking != null)
+            {
+                decisionMaking.Interact();
+            }
+            else
+            {
+                Debug.Log(interactionMessage);
+                // Add more interaction logic here if needed.
+            }
         }
     }
 }
