@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class InteractableObject : MonoBehaviour
 {
-    public string interactionMessage = "You interacted with the object!";
-
     void OnMouseDown()
     {
         Interact();
@@ -11,25 +9,16 @@ public class InteractableObject : MonoBehaviour
 
     public void Interact()
     {
-        // Check if the object is a ResourceCollectible
-        ResourceCollectible resourceCollectible = GetComponent<ResourceCollectible>();
-        if (resourceCollectible != null)
+        // Check if the object implements IInteractable
+        IInteractable interactable = GetComponent<IInteractable>();
+        if (interactable != null)
         {
-            resourceCollectible.Interact();
+            interactable.Interact(); // Call the Interact method defined in IInteractable
+            //Debug.Log("Interaction successful!");
         }
         else
         {
-            // Check if the object is a DecisionMaking
-            DecisionMaking decisionMaking = GetComponent<DecisionMaking>();
-            if (decisionMaking != null)
-            {
-                decisionMaking.Interact();
-            }
-            else
-            {
-                Debug.Log(interactionMessage);
-                // Add more interaction logic here if needed.
-            }
+            //Debug.Log("You have not interacted with an object.");
         }
     }
 }

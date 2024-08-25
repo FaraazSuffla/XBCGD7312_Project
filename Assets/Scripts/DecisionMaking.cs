@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DecisionMaking : MonoBehaviour
+public class DecisionMaking : MonoBehaviour, IInteractable
 {
     public int resourceCost = 20;
     public string decisionMessage = "You decided to cover up a scandal.";

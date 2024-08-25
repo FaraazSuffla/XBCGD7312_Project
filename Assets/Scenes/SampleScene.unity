@@ -629,8 +629,8 @@ GameObject:
   - component: {fileID: 1114889032}
   - component: {fileID: 1114889031}
   - component: {fileID: 1114889030}
-  - component: {fileID: 1114889034}
   - component: {fileID: 1114889035}
+  - component: {fileID: 1114889036}
   m_Layer: 3
   m_Name: ResourceObject
   m_TagString: Untagged
@@ -724,19 +724,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1114889034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1114889028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b062738b55074cd4f8c8c770667e6c5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionMessage: You interacted with the object!
 --- !u!114 &1114889035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -750,6 +737,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resourceValue: 10
+--- !u!114 &1114889036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114889028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b062738b55074cd4f8c8c770667e6c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionMessage: You interacted with the object!
 --- !u!1 &1297996242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,7 +1020,7 @@ GameObject:
   - component: {fileID: 1549585093}
   - component: {fileID: 1549585092}
   - component: {fileID: 1549585097}
-  - component: {fileID: 1549585096}
+  - component: {fileID: 1549585098}
   m_Layer: 3
   m_Name: DecisionObject
   m_TagString: Untagged
@@ -1114,19 +1114,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1549585096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549585091}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b062738b55074cd4f8c8c770667e6c5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionMessage: You interacted with the object!
 --- !u!114 &1549585097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,6 +1131,19 @@ MonoBehaviour:
   reputationChange: 10
   decisionUIPanel: {fileID: 789406236}
   decisionUIText: {fileID: 1044793272}
+--- !u!114 &1549585098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549585091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b062738b55074cd4f8c8c770667e6c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionMessage: You interacted with the object!
 --- !u!1 &1621475472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1224,8 +1224,8 @@ GameObject:
   - component: {fileID: 1742356788}
   - component: {fileID: 1742356787}
   - component: {fileID: 1742356786}
-  - component: {fileID: 1742356785}
   - component: {fileID: 1742356784}
+  - component: {fileID: 1742356790}
   m_Layer: 3
   m_Name: ResourceObject (1)
   m_TagString: Untagged
@@ -1246,19 +1246,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resourceValue: 10
---- !u!114 &1742356785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742356783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b062738b55074cd4f8c8c770667e6c5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionMessage: You interacted with the object!
 --- !u!65 &1742356786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1345,6 +1332,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1742356790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742356783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b062738b55074cd4f8c8c770667e6c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionMessage: You interacted with the object!
 --- !u!1 &1839356702
 GameObject:
   m_ObjectHideFlags: 0
