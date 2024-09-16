@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class QuestUI : MonoBehaviour
 {
-    public Text questListText; // Reference to the UI Text component for displaying quests
+    public Text questListText; // Reference to the UI Text component
 
     private void Update()
     {
@@ -18,17 +18,18 @@ public class QuestUI : MonoBehaviour
         // Loop through each active quest in the QuestManager
         foreach (Quest quest in QuestManager.instance.activeQuests)
         {
-            // Show the quest name
-            questListText.text += "<b>Quest: " + quest.questName + "</b>\n";
+            // Format the quest name in bold
+            questListText.text += "<b><size=18>Quest: " + quest.questName + "</size></b>\n";
 
-            // Show the quest description
-            questListText.text += "Objective: " + quest.description + "\n";
+            // Show the quest description in a smaller font
+            questListText.text += "<i>Objective:</i> " + quest.description + "\n";
 
-            // Show the status of the quest (In Progress or Completed)
+            // Show the status of the quest (In Progress or Completed) with color
             questListText.text += "Status: " + (quest.isCompleted ? "<color=green>Completed</color>" : "<color=yellow>In Progress</color>") + "\n";
 
-            // Show the rewards or losses
-            questListText.text += "Reward: " + quest.resourceReward + " Resources, " + quest.reputationReward + " Reputation\n";
+            // Show the rewards (resources and reputation) in bold
+            questListText.text += "<b>Reward: " + quest.resourceReward + " Resources, " + quest.reputationReward + " Reputation</b>\n";
+
             questListText.text += "\n"; // Add spacing between quests
         }
     }
