@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 63bda1ff9ba91194187659b7df9fa9ed
+=======
+guid: 401c6a17bb57e8945be387ecba391f75
+>>>>>>> CoreMechsimplementation
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
