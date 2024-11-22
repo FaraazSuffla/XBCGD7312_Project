@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class FirstPersonMovement : MonoBehaviour
 {
     public float speed = 5f;
     public float mouseSensitivity = 2f;
