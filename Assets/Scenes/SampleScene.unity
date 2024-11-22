@@ -1406,7 +1406,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questPanel: {fileID: 863733581}
-  isPanelVisible: 0
 --- !u!114 &959956107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1420,7 +1419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenEvents: 60
-  eventTimer: 0
   possibleEvents:
   - eventName: Water Shortage
     eventDescription: A severe water shortage is affecting the town. Should you invest
@@ -1453,11 +1451,6 @@ MonoBehaviour:
   eventDescriptionText: {fileID: 1252788487}
   handleEventButton: {fileID: 299859865}
   ignoreEventButton: {fileID: 1588025351}
-  currentEvent:
-    eventName: 
-    eventDescription: 
-    resourceCost: 0
-    reputationEffect: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,6 +1558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRange: 5
   interactableLayer:
+    serializedVersion: 2
     m_Bits: 0
 --- !u!1 &1033082874
 GameObject:
@@ -2045,7 +2039,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   mouseSensitivity: 2
-  verticalRotation: 0
 --- !u!1 &1442635004
 GameObject:
   m_ObjectHideFlags: 0
