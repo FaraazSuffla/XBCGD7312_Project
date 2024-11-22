@@ -14,9 +14,5 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void LoadLevel()
-    {
-        SceneManager.LoadSceneAsync(2);
-    }
-
+    
 }
