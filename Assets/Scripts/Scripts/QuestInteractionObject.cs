@@ -1,4 +1,4 @@
-using UnityEngine;
+using UnityEngine; // This line is needed to access Unity-specific functions
 
 public class QuestInteractionObject : MonoBehaviour, IInteractable
 {

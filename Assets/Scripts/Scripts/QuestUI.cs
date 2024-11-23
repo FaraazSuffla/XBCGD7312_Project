@@ -28,9 +28,10 @@ public class QuestUI : MonoBehaviour
             questListText.text += "Status: " + (quest.isCompleted ? "<color=green>Completed</color>" : "<color=yellow>In Progress</color>") + "\n";
 
             // Show the rewards (resources and reputation) in bold
-            questListText.text += "<b>Reward: " + quest.resourceReward + " Resources, " + quest.reputationReward + " Reputation</b>\n";
+            questListText.text += "<b>Rewards:</b> Resources: " + quest.resourceReward + " | Reputation: " + quest.reputationReward + "\n";
 
-            questListText.text += "\n"; // Add spacing between quests
+            // Add a separator between quests for readability
+            questListText.text += "--------------------------------------\n";
         }
     }
 }
