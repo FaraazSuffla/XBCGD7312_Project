@@ -78,9 +78,6 @@ public class QuestManager : MonoBehaviour
         QuestManager.instance.AddQuest(finalPowerGrabQuest);
     }
 
-
-
-
     // Add a new quest to the active list
     public void AddQuest(Quest newQuest)
     {
@@ -98,6 +95,7 @@ public class QuestManager : MonoBehaviour
         }
     }
 
+    // Fail a quest and apply reputation loss
     void FailQuest(string questName, int reputationLoss)
     {
         Quest quest = activeQuests.Find(q => q.questName == questName);
@@ -107,5 +105,4 @@ public class QuestManager : MonoBehaviour
             Debug.Log("Failed quest: " + questName + " - Lost " + reputationLoss + " reputation");
         }
     }
-
 }

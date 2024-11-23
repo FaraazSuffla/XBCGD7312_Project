@@ -1,4 +1,4 @@
-using UnityEngine; // This line is needed to access Unity-specific functions
+using UnityEngine;
 
 public class Quest
 {
@@ -35,5 +35,4 @@ public class Quest
         this.description = newDescription; // Update the quest's description dynamically
         Debug.Log("Quest updated: " + questName + " - " + description);
     }
-
 }

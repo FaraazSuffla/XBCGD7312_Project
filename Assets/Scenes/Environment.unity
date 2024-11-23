@@ -9387,7 +9387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ada7b3949c4ba24f82d018acf6978db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToComplete: 
+  questToComplete: Water Crisis
 --- !u!65 &919132147723307017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9452,7 +9452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ada7b3949c4ba24f82d018acf6978db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToComplete: 
+  questToComplete: Environmental Scandal
 --- !u!65 &919132147884699731
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9518,7 +9518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ada7b3949c4ba24f82d018acf6978db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToComplete: The Introduction
+  questToComplete: Final Power Grab
 --- !u!65 &919132148503240104
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9584,7 +9584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ada7b3949c4ba24f82d018acf6978db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToComplete: 
+  questToComplete: Covering Tracks
 --- !u!65 &919132148898107982
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9649,7 +9649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ada7b3949c4ba24f82d018acf6978db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToComplete: 
+  questToComplete: The Introduction
 --- !u!65 &919132149174317207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9715,7 +9715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ada7b3949c4ba24f82d018acf6978db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToComplete: 
+  questToComplete: Bribe the Media
 --- !u!65 &919132149211085846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9781,7 +9781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ada7b3949c4ba24f82d018acf6978db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToComplete: The Introduction
+  questToComplete: The Election Looms
 --- !u!65 &919132149432782562
 BoxCollider:
   m_ObjectHideFlags: 0
