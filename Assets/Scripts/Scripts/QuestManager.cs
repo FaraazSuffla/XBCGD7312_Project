@@ -65,13 +65,7 @@ public class QuestManager : MonoBehaviour
             -120, 15); // -120 resources, +15 reputation with business
         allQuests.Add(environmentalScandalQuest);
 
-        // Quest 7: "Appeasing the Council"
-        Quest appeasingCouncilQuest = new Quest(
-            "Appeasing the Council",
-            "Several council members are threatening to vote against your next major project. Offer them a deal to win their votes.",
-            -100, 10); // -100 resources, +10 reputation with council members
-        allQuests.Add(appeasingCouncilQuest);
-
+       
         // Quest 8: "Final Power Grab"
         Quest finalPowerGrabQuest = new Quest(
             "Final Power Grab",
